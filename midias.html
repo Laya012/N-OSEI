@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mídias — NecroCorp</title>
+  <meta name="description" content="Exemplos de imagens, vídeo e áudio (HTML5, sem CSS/JS).">
+</head>
+<body>
+  <header>
+    <h1>Mídias (HTML5)</h1>
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="produto.html">Produtos</a> |
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Ilustrações (SVG)</h2>
+      <p>SVG estático:</p>
+      <figure>
+        <img src="media/illustration1.svg" alt="Ilustração Conexão" width="600">
+        <figcaption>Ilustração — Conexão</figcaption>
+      </figure>
+      <p>SVG estático 2:</p>
+      <figure>
+        <img src="media/illustration2.svg" alt="Ilustração Futuro" width="600">
+        <figcaption>Ilustração — Futuro</figcaption>
+      </figure>
+      <p>SVG animado (SMIL):</p>
+      <figure>
+        <img src="media/animation.svg" alt="Animação Pulsar" width="600">
+        <figcaption>Animação SVG — Pulsar</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Vídeo</h2>
+      <p>Exemplo de vídeo (substitua por um arquivo local em <code>media/</code> se desejar):</p>
+      <video controls width="640" poster="media/illustration1.svg">
+        <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo. <a href="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">Baixe o vídeo</a>.
+      </video>
+      <p>Dica: para usar um arquivo local, coloque <code>media/video.mp4</code> na pasta e troque o src por esse caminho.</p>
+    </section>
+
+    <section>
+      <h2>Áudio</h2>
+      <p>Player de áudio usando o arquivo local criado:</p>
+      <audio controls>
+        <source src="media/ambient.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio. <a href="media/ambient.mp3">Baixe o áudio</a>.
+      </audio>
+      <p>Observação: substitua <code>media/ambient.mp3</code> por seu próprio arquivo para conteúdo real.</p>
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 NecroCorp.</p>
+  </footer>
+</body>
+</html>

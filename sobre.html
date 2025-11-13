@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre — NecroCorp</title>
+  <meta name="description" content="Sobre a NecroCorp — missão, visão e contato.">
+</head>
+<body>
+  <header>
+    <h1>Sobre</h1>
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="produto.html">Produtos</a> |
+      <a href="cadastro.html">Cadastrar Empresa</a>
+    </nav>
+  </header>
+  <main>
+    <section id="mission">
+      <h2>Missão</h2>
+      <p>A NecroCorp fornece soluções tecnológicas e consultoria para transformação digital.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Imagens</h2>
+      <p>Galeria ilustrativa — substitua os links abaixo por imagens locais em "media/" se preferir.</p>
+      <figure>
+          <figcaption>Equipe da NecroCorp em reunião estratégica.</figcaption>
+        <img src="farmando.png" alt="Equipe da NecroCorp em reunião" width="800">
+      </figure>
+      <figure>
+          <figcaption>Sala de servidores e infraestrutura.</figcaption>
+        <img src="server.png" alt="Sala de servidores da NecroCorp" width="800">
+      </figure>
+    </section>
+    <section id="video">
+      <h2>Vídeo institucional</h2>
+      <p>Assista ao vídeo institucional. Use o atributo <code>poster</code> para mostrar uma imagem antes do play.</p>
+      <video controls width="640" poster="media/illustration1.svg" aria-label="Vídeo institucional da NecroCorp">
+        <!-- Local video files (coloque media/video.mp4 ou media/video.webm na pasta media/) -->
+        <source src="rickroll.mp4" type="video/mp4">
+        <source src="rickroll.mp4" type="video/webm">
+        <!-- Fallback: mostrar o SVG animado como alternativa visual -->
+        <object data="animation.svg" type="image/svg+xml" aria-label="Animação alternativa"> 
+          <!-- Se não houver suporte a objeto SVG, forneça link para vídeo externo -->
+          Seu navegador não suporta vídeo/objeto SVG. <a href="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4">Baixe o vídeo</a>.
+        </object>
+      </video>
+      <p>Observação: para legendas, adicione uma tag <code>&lt;track kind="captions" srclang="pt" src="legendavideo.vtt"&gt;</code> apontando para um arquivo VTT.</p>
+    </section>
+
+    <section id="audio">
+      <h2>Áudio</h2>
+      <p>Player de áudio com controles nativos. Arquivo local em <code>media/ambient.mp3</code>.</p>
+      <audio controls aria-label="Áudio institucional">
+        <source src="Evanescence_-_Bring_Me_To_Life_(mp3.pm) (1).mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio. <a href="Evanescence_-_Bring_Me_To_Life_(mp3.pm) (1).mp3">Baixe o áudio</a>.
+      </audio>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 NecroCorp.</p>
+  </footer>
+</body>
+</html>
